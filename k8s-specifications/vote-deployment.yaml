@@ -15,7 +15,7 @@ spec:
         app: vote
     spec:
       containers:
-      - image: dockersamples/examplevotingapp_vote
+      - image: gcr.io/zinc-citron-477313-q7/voting-app/vote:24
         name: vote
         ports:
         - containerPort: 80
